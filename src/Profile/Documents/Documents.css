@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.inputFile input[type="file"] {
+    display: none;
+}
+
+.inputFile{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    height: 20px;
+}
+
+.inputFile p{
+    font-size: 12px;
+    margin-top: 8px;
+}
+
+
+.fileInp{
+    border: 1px solid #EE2F58;
+    padding: 70px 70px;
+    border-radius: 5px;
+    margin-top: 10px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fileInp:hover{
+    cursor: pointer;
+    border: 1px dashed #EE2F58;
+    background-color: rgb(241, 241, 241);
+}
+
+.docs{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+
+    
+}
+
+.doc{
+    margin: 20px;
+    background-color: rgb(255,255,255);
+    border-radius: 5px ;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    height: 300px;
+    padding: 10px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.doc h4{
+    display: inline-block;
+    text-align: center;
+}
+
+.doc label{
+    font-size: 10px;
+}

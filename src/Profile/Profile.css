@@ -1,0 +1,19 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .components{
+    display: flex;
+    flex-direction: row;
+} */
+
+.row1{
+    display: flex;
+    justify-content: center;
+}
+
+.profDet{
+    margin: 1%;
+}

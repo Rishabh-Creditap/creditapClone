@@ -1,0 +1,97 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.layout{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.grid{
+    margin-top: 25px;
+    display: grid;
+    grid-template-rows: 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
+    justify-content: center;
+    align-content: center;
+    width: 60vw;
+    row-gap: 1rem;
+}
+
+.card{
+    height: 30vh;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    width: 90%;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+img{
+    height: 60px;
+    width: 80px;
+    margin: 5px;
+}
+
+h3{
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+.button{
+    display: flex;
+    flex-direction: row-reverse;
+    margin: 20px;
+}
+
+.button button{
+    border: none;
+    color: #EE2F58;
+    background-color: white;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.details{
+    margin-top: 5px;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    margin: 5px;
+}
+
+.dashDetails{
+    margin-top: 5px;
+    word-wrap: break-word;
+    font-size: 0.9rem;
+    margin: 5px;
+    width: 90%;
+}
+
+.modalCards{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    border-radius: 5px;
+    padding: 15px;
+    justify-content: center;
+    align-items: center;
+}
+
+.modalCards p{
+    text-align: center;
+    margin: 10px;
+}
+
+.btn{
+    background-color: rgb(237, 47, 88);
+    font-size: small;
+}
+
+.link{
+    text-decoration: none;
+}

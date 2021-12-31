@@ -1,0 +1,62 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+svg{
+    width: 2rem;
+}
+
+.compDet{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 8vh;
+    margin: 0.7rem;
+    
+}
+
+.logo{
+    margin: 15px;
+}
+
+.logo img{
+    width: 160px;
+}
+
+.user{
+    margin: 15px;
+}
+
+nav{
+    background-color: #EE2F58;
+    height: 8vh;
+    box-shadow: inset 0px 11px 8px -10px rgb(43, 42, 42);
+}
+
+nav>ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    height: 8vh;
+    align-items: center;
+    margin: auto;
+}
+
+nav >ul >li{
+    margin-left: 25px;
+    color: rgb(253,219,226);
+}
+
+.linkClass{
+    text-decoration: none;
+    color: rgb(253,219,226);
+}
+
+nav >ul >li:hover{
+    cursor: pointer;
+}
